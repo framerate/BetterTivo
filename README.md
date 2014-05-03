@@ -1,17 +1,11 @@
-npm-base-package
-================
+=== BetterTivo ===
 
-A basic npm package setup with grunt, jshint and blanket coverage reports for unit tests.
+nodejs application to organize a single folder of TV Shows into 'Show Name/Season' structure
 
-I wanted something basic that I could copy/paste and rename a few items in order to have jshint, coverage reports and grunt already setup with watchers.
+- edit config.json
 
-Using this is quite simple. Just clone down the repo and it's a basic copy paste to your own folder.  Once you've copied it make the following changes:
+- run node app.js
 
-***lib/module.js***
-  ~ Rename file to the name of your package.
-  
-***test/module-tests.js***
-  ~ Rename file to match module.name-tests.js and inside ensure you are requiring the correct module name.
-  
-***package.json***
-  ~ Replace all instances of npm-base-package with your own, update git urls and update the entry point file reference.
+- wonder why XBMC can't do this itself.
+
+USE AT YOUR OWN RISK
