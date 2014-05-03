@@ -2,14 +2,12 @@
 var _ = require('underscore');
 var fs = require('fs');
 
-var validShows = require('./config.json').validShows;
-
-// var string = 'The.Big.Bang.Theory.S07E22.HDTV.x264-LOL.torrent';
+var config = require('./config.json');
 
 require('colors');
 var utils = require('./lib/utils');
 
-var dir = '/Volumes/Media/_DOWNLOADS/_tvshows/';
+var dir = config.scanDirectory;
 var files = fs.readdirSync(dir);
 
 files = _.reject(files, function(file){
@@ -18,5 +16,6 @@ files = _.reject(files, function(file){
 
 _.each(files, function(file){
     console.log('\nScanning: '.cyan + file.green);
-    utils.createInfoObject(file);
+    var info = utils.createInfoObject(file);
+    utils.organizeFile(info);
 });

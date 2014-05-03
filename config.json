@@ -1,3 +1,5 @@
 {
-    "validShows": ["Archer", "Californication", "Game of Thrones", "Mad Men", "Silicon Valley"]
+    "validShows": ["Silicon Valley"],
+    "scanDirectory": "/Volumes/Media/_DOWNLOADS/_tvshows/",
+    "outputDirectory": "/Users/framerate/Desktop/Organized/"
 }

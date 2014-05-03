@@ -39,6 +39,9 @@
   },
   "dependencies": {
     "colors": "^0.6.2",
+    "mkdirp": "^0.4.0",
+    "ncp": "^0.5.1",
+    "node-touch": "0.0.3",
     "underscore": "^1.6.0"
   }
 }
