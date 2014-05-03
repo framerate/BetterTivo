@@ -1,5 +1,5 @@
 {
-    "validShows": ["Silicon Valley"],
+    "validShows": ["Mad Men"],
     "scanDirectory": "/Volumes/Media/_DOWNLOADS/_tvshows/",
     "outputDirectory": "/Users/framerate/Desktop/Organized/"
 }

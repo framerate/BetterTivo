@@ -15,7 +15,6 @@ files = _.reject(files, function(file){
 });
 
 _.each(files, function(file){
-    console.log('\nScanning: '.cyan + file.green);
     var info = utils.createInfoObject(file);
     utils.organizeFile(info);
 });
